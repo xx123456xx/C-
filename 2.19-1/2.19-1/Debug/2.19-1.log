@@ -1,0 +1,21 @@
+﻿生成启动时间为 2021/2/19 11:47:45。
+     1>项目“C:\Users\86152\Desktop\c\2.19-1\2.19-1\2.19-1.vcxproj”在节点 2 上(build 个目标)。
+     1>InitializeBuildStatus:
+         正在对“Debug\2.19-1.unsuccessfulbuild”执行 Touch 任务。
+       ClCompile:
+         E:\迅雷云盘\VC\bin\CL.exe /c /ZI /nologo /W1 /WX- /Od /Oy- /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc100.pdb" /Gd /TP /analyze- /errorReport:prompt "实验.cpp"
+         实验.cpp
+       Link:
+         E:\迅雷云盘\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"C:\Users\86152\Desktop\c\2.19-1\Debug\2.19-1.exe" /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /ManifestFile:"Debug\2.19-1.exe.intermediate.manifest" /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /PDB:"C:\Users\86152\Desktop\c\2.19-1\Debug\2.19-1.pdb" /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:\Users\86152\Desktop\c\2.19-1\Debug\2.19-1.lib" /MACHINE:X86 "Debug\实验.obj"
+     1>实验.obj : warning LNK4075: 忽略“/EDITANDCONTINUE”(由于“/OPT:ICF”规范)
+         2.19-1.vcxproj -> C:\Users\86152\Desktop\c\2.19-1\Debug\2.19-1.exe
+       Manifest:
+         C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\bin\mt.exe /nologo /verbose /outputresource:"C:\Users\86152\Desktop\c\2.19-1\Debug\2.19-1.exe;#1" /manifest "Debug\2.19-1.exe.intermediate.manifest"
+       FinalizeBuildStatus:
+         正在删除文件“Debug\2.19-1.unsuccessfulbuild”。
+         正在对“Debug\2.19-1.lastbuildstate”执行 Touch 任务。
+     1>已完成生成项目“C:\Users\86152\Desktop\c\2.19-1\2.19-1\2.19-1.vcxproj”(build 个目标)的操作。
+
+生成成功。
+
+已用时间 00:00:00.41
