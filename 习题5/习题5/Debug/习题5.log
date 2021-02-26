@@ -1,0 +1,13 @@
+﻿生成启动时间为 2021/1/15 22:39:22。
+     1>项目“C:\Users\86152\Desktop\c\习题5\习题5\习题5.vcxproj”在节点 2 上(build 个目标)。
+     1>InitializeBuildStatus:
+         正在创建“Debug\习题5.unsuccessfulbuild”，因为已指定“AlwaysCreate”。
+       ClCompile:
+         E:\迅雷云盘\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /Od /Oy- /D WIN32 /D _DEBUG /D _CONSOLE /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc100.pdb" /Gd /TP /analyze- /errorReport:prompt "习题5.cpp"
+         习题5.cpp
+     1>c:\users\86152\desktop\c\习题5\习题5\习题5.cpp(5): error C2296: “&”: 非法，左操作数包含“int *”类型
+     1>已完成生成项目“C:\Users\86152\Desktop\c\习题5\习题5\习题5.vcxproj”(build 个目标)的操作 - 失败。
+
+生成失败。
+
+已用时间 00:00:00.11
