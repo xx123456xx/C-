@@ -29,7 +29,7 @@ void my_strcpy3(char* des,char* str)//8分版本
 	  }
 	}*/
 
-	assert(des!=NULL);
+	assert(des!=NULL);//断言；为假的时候，报错并报出位置
 	assert(str!=NULL);
 	while(* des++=* str++)
 	  {
@@ -41,6 +41,8 @@ int main()
 	char arr1[]="********************";
 	printf("%s\n",arr1);
 	char arr2[]="bit";
+	//strcpy库函数
+	//字符串拷贝函数-把arr2中的字符串拷贝到arr1中，包含其中的‘\0’
 	strcpy(arr1,arr2);
 	printf("%s\n",arr1);
 	my_strcpy1(arr1,arr2);
