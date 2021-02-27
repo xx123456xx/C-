@@ -1,0 +1,20 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual C++ Express 2010
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "2.27-（如何写出一个好代码）", "2.27-（如何写出一个好代码）\2.27-（如何写出一个好代码）.vcxproj", "{FA0D911C-696B-4673-A69F-6EA7BCA95E86}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Win32 = Debug|Win32
+		Release|Win32 = Release|Win32
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{FA0D911C-696B-4673-A69F-6EA7BCA95E86}.Debug|Win32.ActiveCfg = Debug|Win32
+		{FA0D911C-696B-4673-A69F-6EA7BCA95E86}.Debug|Win32.Build.0 = Debug|Win32
+		{FA0D911C-696B-4673-A69F-6EA7BCA95E86}.Release|Win32.ActiveCfg = Release|Win32
+		{FA0D911C-696B-4673-A69F-6EA7BCA95E86}.Release|Win32.Build.0 = Release|Win32
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
