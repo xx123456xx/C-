@@ -19,12 +19,15 @@
 		 //玩家下棋
 		 PlayerMove(board,ROW,COL);
 		 DisplaBoard(board,ROW,COL);
-		 
+		 //电脑下棋
+		 ComputerMove(board,ROW,COL);
+		 DisplaBoard(board,ROW,COL);
 	 }
  }
 void test()
 {
 	int input=0;
+	srand((unsigned int)time(NULL));
 	do
 	{
 		menu();
