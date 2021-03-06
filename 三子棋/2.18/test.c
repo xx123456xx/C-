@@ -9,6 +9,7 @@
  //游戏整个的算法实现
  void game()
  {
+	 char ret;
 	 //数组，存放走出的棋盘信息
 	 char board[ROW][COL]={0};//全变空格
 	 InitBoard(board,ROW,COL);//初始化棋盘
@@ -19,9 +20,31 @@
 		 //玩家下棋
 		 PlayerMove(board,ROW,COL);
 		 DisplaBoard(board,ROW,COL);
+		 //判断玩家输赢
+		 ret=IsWin(board,ROW,COL);
+		 if(ret !='C')
+		 {
+			 break;
+		 }
 		 //电脑下棋
 		 ComputerMove(board,ROW,COL);
 		 DisplaBoard(board,ROW,COL);
+		 //判断输赢
+		 ret=IsWin(board,ROW,COL);
+		 if(ret !='C')
+		 {
+			 break;
+		 }
+	 }
+	 if(ret == '*')
+	 {
+		 printf("玩家赢\n");
+	 }
+	 else if(ret == '#')
+		 printf("电脑赢\n");
+	 else
+	 {
+		 printf("平局\n");
 	 }
  }
 void test()

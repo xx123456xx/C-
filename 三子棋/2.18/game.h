@@ -8,3 +8,9 @@ void  DisplaBoard(char board[ROW][COL],int row,int col );
 void InitBoard(char board[ROW][COL],int row,int col);
 void PlayerMove(char board[ROW][COL],int row,int col);
 void ComputerMove(char board[ROW][COL],int row,int col);
+//告诉我们四种游戏的状态
+//玩家赢 ‘*’
+//电脑赢 ‘#’
+//平局   “Q”
+//继续   “C”
+char IsWin (char board[ROW][COL],int row,int col);
